@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>OurRecipe.App</title>
+    <link href="https://jamescarne.github.io/verbose-rotary-phone/feed.xml" rel="self" />
+    <link href="https://jamescarne.github.io/verbose-rotary-phone" />
+    <updated>2022-08-20T19:06:48+01:00</updated>
+    <author>
+        <name>James Carne</name>
+    </author>
+    <id>https://jamescarne.github.io/verbose-rotary-phone</id>
+
+    <entry>
+        <title>Home Page v2</title>
+        <author>
+            <name>James Carne</name>
+        </author>
+        <link href="https://jamescarne.github.io/verbose-rotary-phone/home-page-v2/"/>
+        <id>https://jamescarne.github.io/verbose-rotary-phone/home-page-v2/</id>
+
+        <updated>2022-08-20T19:06:48+01:00</updated>
+            <summary>
+                <![CDATA[
+                    The recipe manager app built for you OurRecipe is a passion project. We love cooking and making amazing food. Our friends and family&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+    <h2 id="the-recipe-manager-app-built-for-you" class="align-center">
+      The recipe manager app built for you
+    </h2>
+
+  <div  class="gallery-wrapper gallery-wrapper--full">
+    <div class="gallery" data-columns="3">
+      <figure class="gallery__item">
+      <a href="https://jamescarne.github.io/verbose-rotary-phone/media/posts/3/gallery/Bellini.jpg" data-size="1000x500">
+        <img loading="lazy" src="https://jamescarne.github.io/verbose-rotary-phone/media/posts/3/gallery/Bellini-thumbnail.jpg" height="360" width="720" alt="" />
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://jamescarne.github.io/verbose-rotary-phone/media/posts/3/gallery/Corpse-Reviver-No-2.jpg" data-size="1000x500">
+        <img loading="lazy" src="https://jamescarne.github.io/verbose-rotary-phone/media/posts/3/gallery/Corpse-Reviver-No-2-thumbnail.jpg" height="360" width="720" alt="" />
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://jamescarne.github.io/verbose-rotary-phone/media/posts/3/gallery/Bramble.jpg" data-size="1000x500">
+        <img loading="lazy" src="https://jamescarne.github.io/verbose-rotary-phone/media/posts/3/gallery/Bramble-thumbnail.jpg" height="360" width="720" alt="" />
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://jamescarne.github.io/verbose-rotary-phone/media/posts/3/gallery/Caipirinha.jpg" data-size="1000x500">
+        <img loading="lazy" src="https://jamescarne.github.io/verbose-rotary-phone/media/posts/3/gallery/Caipirinha-thumbnail.jpg" height="360" width="720" alt="" />
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://jamescarne.github.io/verbose-rotary-phone/media/posts/3/gallery/Corpse-Reviver-No-1.jpg" data-size="1000x500">
+        <img loading="lazy" src="https://jamescarne.github.io/verbose-rotary-phone/media/posts/3/gallery/Corpse-Reviver-No-1-thumbnail.jpg" height="360" width="720" alt="" />
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://jamescarne.github.io/verbose-rotary-phone/media/posts/3/gallery/Cuba-Libre.png" data-size="1000x500">
+        <img loading="lazy" src="https://jamescarne.github.io/verbose-rotary-phone/media/posts/3/gallery/Cuba-Libre-thumbnail.png" height="360" width="720" alt="" />
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://jamescarne.github.io/verbose-rotary-phone/media/posts/3/gallery/Daiquiri.png" data-size="1000x500">
+        <img loading="lazy" src="https://jamescarne.github.io/verbose-rotary-phone/media/posts/3/gallery/Daiquiri-thumbnail.png" height="360" width="720" alt="" />
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://jamescarne.github.io/verbose-rotary-phone/media/posts/3/gallery/Dark-N-Stormy.jpg" data-size="1000x500">
+        <img loading="lazy" src="https://jamescarne.github.io/verbose-rotary-phone/media/posts/3/gallery/Dark-N-Stormy-thumbnail.jpg" height="360" width="720" alt="" />
+      </a>
+      
+    </figure>
+    </div>
+  </div>
+
+  <p>
+    <i>OurRecipe is a passion project. We love cooking and making amazing food. Our friends and family constantly&nbsp;ask for copies of recipes. We created this app so we had a single place to store our recipes, collaborate&nbsp;together and share.</i>
+  </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Home Page</title>
+        <author>
+            <name>James Carne</name>
+        </author>
+        <link href="https://jamescarne.github.io/verbose-rotary-phone/our-recipes/"/>
+        <id>https://jamescarne.github.io/verbose-rotary-phone/our-recipes/</id>
+
+        <updated>2022-08-20T17:03:30+01:00</updated>
+            <summary>
+                <![CDATA[
+                    The recipe app built for you OurRecipe is a passion project. We love cooking and making amazing food. Our friends and family constaintly&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <h2 class="align-center">The recipe app built for you</h2>
+<p class="align-center">OurRecipe is a passion project. We love cooking and making amazing food. Our friends and family constaintly ask for copies of recipes. We created this app so we had a single place to store our recipes, collaboarate together and share.</p>
+<p class="align-center"> </p>
+            ]]>
+        </content>
+    </entry>
+</feed>

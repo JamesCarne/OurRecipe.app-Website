@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://jamescarne.github.io/verbose-rotary-phone/sitemap.xml
