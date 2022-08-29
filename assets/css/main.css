@@ -162,20 +162,21 @@ header img {
 }
 
 
-.sidebarmenu button{
+.sidebarmenu a{
     background: none;
 	border: none;
-	width:100%;
+	width:150px;
 	font-size: 1rem;
 	cursor:pointer;
     text-align:left;
 	border-radius:5px;
 	padding:5px;
 	color: var(--SideMenuTextColor);
+	text-decoration:none;
 
 }
 
-.sidebarmenu button:hover{
+.sidebarmenu a:hover{
       background-color: var(--HeaderBackgroundColor);
       transition: 0.4s;
       color: var(--SideMenuBackgroundColor);
@@ -219,15 +220,15 @@ nav{
     position: absolute;
     right:0;
     top: 0;
-    padding-right: 50px;
     box-sizing: border-box;
-    height:100%;
+    height: var(--HeaderHeight);
+    padding: var(--HeaderPadding) 50px var(--HeaderPadding) 0;
 }
 
 .menu{
     box-sizing: border-box;
-    padding:0;
-    margin:0;
+    padding:12px;
+    margin:auto;
     height:100%;
 }
 
@@ -244,7 +245,7 @@ nav{
 }
 
 
-.menu li button{
+.menu li a{
     font-size: 1.1rem;
 	font-weight: 700;
 	cursor:pointer;
@@ -256,7 +257,7 @@ nav{
 
 }
 
-.menu li button:hover {
+.menu li a:hover {
       color: var(--MenuTextColorHover);
       transition: 0.4s;
   }
@@ -271,7 +272,7 @@ nav{
 	background: var(--MenuLastBackgroundColor);
 	border: none;
 	border-radius:25px;
-	padding: 0 15px;
+	padding: 15px;
 }  
 
 #last-menu-button:hover {
