@@ -176,9 +176,26 @@ header img {
 
 }
 
-.sidebarmenu a:hover{
+.sidebarmenu .link{
+    background: none;
+	border: none;
+	width:150px;
+	font-size: 1rem;
+	cursor:pointer;
+    text-align:left;
+	border-radius:5px;
+	padding:5px;
+	color: var(--SideMenuTextColor);
+	text-decoration:none;
+
+}
+
+.sidebarmenu .link:hover{
       background-color: var(--HeaderBackgroundColor);
       transition: 0.4s;
+     }
+     
+ .sidebarmenu .link:hover a{
       color: var(--SideMenuBackgroundColor);
 }
 
