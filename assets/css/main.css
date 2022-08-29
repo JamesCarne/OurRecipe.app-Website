@@ -315,6 +315,28 @@ main {
 }
 
 
+/* Home Page */
+
+#Home-Headline{
+    background: var(--Homebackgroundimage);
+    background-color: var(--HomeHeaderBackgroundColor);
+
+}
+
+
+
+
+/* Post */
+
+article{
+padding:40px;
+}
+
+article h1{
+font-size:40px;
+font-weight:700;
+}
+
 /* Footer Content */
 footer {
     width:100%;
