@@ -320,10 +320,45 @@ main {
 #Home-Headline{
     background: var(--Homebackgroundimage);
     background-color: var(--HomeHeaderBackgroundColor);
+    display: grid;
+    grid-template-columns: auto auto;
 
 }
 
+#Home-Headline-Text{
+    padding:25vh 5vw;
 
+}
+
+#Home-Headline-Text h1{
+    font-size: 48px;
+    line-height:50px;
+
+}
+
+#Home-Headline-Text h2{
+    font-size: 28px;
+    line-height:32px;
+    font-weight:500;
+
+}
+
+#Home-Headline-Divider{
+    height: 3px;
+    width: 30px;
+    background-color: black;
+    margin-bottom:25px;
+
+}
+
+.home-appstore{
+    height: 50px;
+    padding: 10px;
+
+}
+.home-playstore{
+    height:70px;
+}
 
 
 /* Post */
@@ -465,8 +500,25 @@ img {
   
   nav{
     display:none;
-  
   }
+  
+  #Home-Headline{
+    grid-template-columns: auto;
+}
+
+    #Home-Headline-Text{
+    padding:10vh 5vw;
+
+}
+
+    #Home-Headline-Screenshot img{
+    
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;    
+    }
+
 }
 
 @media only screen and (max-width: 750px) {
@@ -475,6 +527,23 @@ img {
     padding:20px 5px;
     }
   
+  #Home-Headline-Text{
+    padding:5vh 5vw;
+
+    }
+    
+    #Home-Headline-Text h1{
+    font-size: 35px;
+    line-height:37px;
+
+    }    
+    
+    #Home-Headline-Text h2{
+        font-size: 20px;
+        line-height:24px;
+    
+    }
+
 }
   
 @media only screen and (max-width: 600px) {
@@ -489,6 +558,17 @@ img {
   .mobilelinebreak{
     display: block;
     }
+  
+  .home-appstore{
+    height: 40px;
+    padding: 7.5px;
+
+    }
+    .home-playstore{
+        height:55px;
+    }
+
+  
   
 }
 
