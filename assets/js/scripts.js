@@ -52,7 +52,7 @@ $(".has-submenu").mouseenter(function() {
              $(this).find('.submenu').first().addClass('resolved');
          }
          
-         $(this).find('.submenu').first().find('li').last().find('button').first().removeAttr('id');
+         $(this).find('.submenu').first().find('li').last().find('a').first().removeClass('lastmenubutton');
          
      }
     
