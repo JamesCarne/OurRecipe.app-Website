@@ -1,6 +1,6 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "Test",
+    "title": "OurRecipe.app",
     "description": "",
     "home_page_url": "https://ourrecipe.app",
     "feed_url": "https://ourrecipe.app/feed.json",
