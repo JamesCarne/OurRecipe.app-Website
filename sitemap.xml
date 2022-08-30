@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="https://jamescarne.github.io/verbose-rotary-phone/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://ourrecipe.app/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
-<loc>https://jamescarne.github.io/verbose-rotary-phone/</loc>
+<loc>https://ourrecipe.app/</loc>
 </url>
 <url>
-<loc>https://jamescarne.github.io/verbose-rotary-phone/privacy.html</loc>
-<lastmod>2022-08-29T13:43:03+01:00</lastmod>
+<loc>https://ourrecipe.app/designing-our-website/</loc>
+<lastmod>2022-08-28T20:13:06+01:00</lastmod>
+</url>
+<url>
+<loc>https://ourrecipe.app/home-page-v2/</loc>
+<lastmod>2022-08-20T19:06:48+01:00</lastmod>
 </url>
 </urlset>
