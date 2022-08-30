@@ -98,7 +98,7 @@ header {
 
 header img {
     height: var(--HeaderLogoSize);
-    padding: var(--HeaderPadding);
+    padding: 5px var(--HeaderPadding);
     box-sizing: border-box;
 }
 
@@ -356,6 +356,7 @@ main {
     margin-bottom:25px;
 
 }
+
 
 .home-appstore{
     height: 50px;
