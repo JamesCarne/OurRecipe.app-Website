@@ -36,6 +36,8 @@ $(".has-submenu" ).hover(function(){
 
 $(".has-submenu").mouseenter(function() {
     
+    $('.submenu').hide();  
+    
     if(!$(this).find('ul').first().hasClass('resolved')){
     
         var position = $(this).offset().left + ($(this).outerWidth()/2) - ($(this).find('.submenu').first().innerWidth()/2);
@@ -53,16 +55,18 @@ $(".has-submenu").mouseenter(function() {
              $(this).find('.submenu').first().addClass('resolved');
          }
          
-         $(this).find('.submenu').first().find('li').last().find('a').first().removeClass('lastmenubutton');
+
          
      }
     
     $(this).find('.submenu').first().show();  
-}).mouseleave(function() {      
-    if(!$(this).find('.submenu').first().hasClass('active')){
-         $(this).find('.submenu').first().hide();
-         
-    }
+    $("#MenuHideOverlay").show();
+    
+});
+
+$("#MenuHideOverlay").mouseenter(function() {
+    $("#MenuHideOverlay").hide();
+    $(".submenu").hide();
 });
 
 

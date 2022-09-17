@@ -74,6 +74,7 @@ header {
    height: var(--HeaderHeight);
    width:100vw;
    top: 0;
+   z-index:101;
 }
 
 .sticky {
@@ -96,6 +97,17 @@ header {
 .absolute {
     position: absolute;
 }
+
+
+#MenuHideOverlay{
+    position:fixed;
+    height:100vh;
+    width:100vw;
+    background:transparent;
+    z-index:100;
+    display:none;
+}
+
 
 header img {
     height: var(--HeaderLogoSize);
