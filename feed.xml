@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>OurRecipe.app</title>
+    <title>Our-Recipe.app</title>
     <link href="https://preprod.ourrecipeapp.pages.dev/feed.xml" rel="self" />
     <link href="https://preprod.ourrecipeapp.pages.dev" />
     <updated>2022-08-29T13:43:03+01:00</updated>
